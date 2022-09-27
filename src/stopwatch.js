@@ -14,6 +14,7 @@ export default class Stopwatch {
         this._interval = setInterval(() => {
             this._centisecond += 1;
         }, 10);
+        console.log(this._centisecond);
     }
 
     pause() {
